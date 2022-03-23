@@ -1,0 +1,5 @@
+Kotlin is a modern but already mature programming language aimed to make developers happier. It’s concise, safe, interoperable with Java and other languages, and provides many ways to reuse code between multiple platforms for productive programming.
+
+If you're already familiar with one or more programming languages and want to learn Kotlin, start with these Kotlin learning materials.
+
+If Kotlin is your first programming language, we recommend starting with the Atomic Kotlin book or signing up for the free Kotlin Basics track on JetBrains Academy.
