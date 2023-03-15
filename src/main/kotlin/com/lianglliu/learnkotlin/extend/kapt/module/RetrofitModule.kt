@@ -9,7 +9,12 @@ import retrofit2.Retrofit
 import javax.inject.Singleton
 
 @Module(
-    includes = [GsonConverterModule::class, OkHttpClientModule::class, RxAdapterModule::class, BaseUrlModule::class]
+    includes = [
+        GsonConverterModule::class,
+        OkHttpClientModule::class,
+        RxAdapterModule::class,
+        BaseUrlModule::class
+    ]
 )
 class RetrofitModule {
     @Singleton

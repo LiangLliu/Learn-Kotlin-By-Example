@@ -1,6 +1,5 @@
 package com.lianglliu.learnkotlin.extend.rxjava
 
-import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 
 internal class RxjavaDemoTest {

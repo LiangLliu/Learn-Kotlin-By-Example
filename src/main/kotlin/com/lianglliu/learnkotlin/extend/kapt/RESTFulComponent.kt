@@ -6,7 +6,7 @@ import retrofit2.Retrofit
 import javax.inject.Singleton
 
 @Singleton
-@Component(modules = arrayOf(RetrofitModule::class))
+@Component(modules = [RetrofitModule::class])
 interface RESTFulComponent {
     fun retrofit(): Retrofit
 }

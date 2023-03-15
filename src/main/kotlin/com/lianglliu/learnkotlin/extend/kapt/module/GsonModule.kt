@@ -9,5 +9,7 @@ import javax.inject.Singleton
 @Module
 class GsonModule {
 
-    @Singleton @Provides fun gson(): Gson = Gson()
+    @Singleton
+    @Provides
+    fun gson(): Gson = Gson()
 }

@@ -9,5 +9,7 @@ import javax.inject.Singleton
 
 @Module(includes = [GsonModule::class])
 class GsonConverterModule {
-    @Singleton @Provides fun converter(gson: Gson): Converter.Factory = GsonConverterFactory.create(gson)
+    @Singleton
+    @Provides
+    fun converter(gson: Gson): Converter.Factory = GsonConverterFactory.create(gson)
 }

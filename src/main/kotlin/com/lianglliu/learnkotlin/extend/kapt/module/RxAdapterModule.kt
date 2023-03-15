@@ -11,5 +11,7 @@ import javax.inject.Singleton
  */
 @Module
 class RxAdapterModule {
-    @Singleton @Provides fun adapter(): CallAdapter.Factory = RxJavaCallAdapterFactory.create()
+    @Singleton
+    @Provides
+    fun adapter(): CallAdapter.Factory = RxJavaCallAdapterFactory.create()
 }

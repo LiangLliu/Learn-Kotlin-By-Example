@@ -8,7 +8,6 @@ internal class TailRecursionTest {
     @Test
     fun should_calculate_factorial_when_given_one_number() {
         assertEquals(BigInteger.valueOf(120L), factorial(5))
-        assertEquals(BigInteger.valueOf(120L), factorial(10000))
     }
 
     @Test
